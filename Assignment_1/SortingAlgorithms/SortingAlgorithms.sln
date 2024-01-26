@@ -7,7 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SortingAlgorithmsTests", "S
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SortingAlgorithms", "SortingAlgorithms\SortingAlgorithms.csproj", "{86BF3CA5-12AA-4218-AC6F-4831006C1B17}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StepsCounting", "StepsCounting\StepsCounting.csproj", "{3DC578A8-4EBE-44C4-B60E-8096E89DD034}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StepsCounting", "StepsCounting\StepsCounting.csproj", "{3DC578A8-4EBE-44C4-B60E-8096E89DD034}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExecutionTime", "ExecutionTime\ExecutionTime.csproj", "{39188167-DE0E-406E-9770-8422AF972140}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{3DC578A8-4EBE-44C4-B60E-8096E89DD034}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3DC578A8-4EBE-44C4-B60E-8096E89DD034}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3DC578A8-4EBE-44C4-B60E-8096E89DD034}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39188167-DE0E-406E-9770-8422AF972140}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39188167-DE0E-406E-9770-8422AF972140}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39188167-DE0E-406E-9770-8422AF972140}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39188167-DE0E-406E-9770-8422AF972140}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

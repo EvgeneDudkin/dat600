@@ -1,4 +1,3 @@
-// First Go program
 package main
 
 import (
@@ -9,8 +8,20 @@ import (
 
 // Main function
 func main() {
-	array := generateRandomArray(10, -100, 100)
-	fmt.Println(array)
+	arraySizes := []int{50000, 100000, 500000, 10000000, 30000000}
+	for i := 0; i < len(arraySizes); i++ {
+		size := arraySizes[i]
+
+		array := generateRandomArray(size, -1000, 1000)
+		// watch := stopwatch.Start()
+		start := time.Now()
+
+		quickSort(array, 0, size-1)
+		// watch.Stop()
+		elapsed := time.Since(start)
+		fmt.Printf("Size: %v, Elapsed: %s\n", size, elapsed)
+		//fmt.Printf("Size: %v, Milliseconds elapsed: %s\n", size, watch.Milliseconds())
+	}
 }
 
 func generateRandomArray(length int, min int, max int) []int {
