@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33502.453
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MatrixChainMultiplication", "MatrixChainMultiplication\MatrixChainMultiplication.csproj", "{D59B13B1-80A7-4CA5-BE71-802E7E5458E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Knapsack", "Knapsack\Knapsack.csproj", "{B3288E29-0F38-4930-A121-B13494015EBB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoinChange", "CoinChange\CoinChange.csproj", "{450B8FFA-E429-461D-AD78-50D41481E013}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D59B13B1-80A7-4CA5-BE71-802E7E5458E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D59B13B1-80A7-4CA5-BE71-802E7E5458E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D59B13B1-80A7-4CA5-BE71-802E7E5458E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D59B13B1-80A7-4CA5-BE71-802E7E5458E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3288E29-0F38-4930-A121-B13494015EBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3288E29-0F38-4930-A121-B13494015EBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3288E29-0F38-4930-A121-B13494015EBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3288E29-0F38-4930-A121-B13494015EBB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{450B8FFA-E429-461D-AD78-50D41481E013}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{450B8FFA-E429-461D-AD78-50D41481E013}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{450B8FFA-E429-461D-AD78-50D41481E013}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{450B8FFA-E429-461D-AD78-50D41481E013}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {25667BF0-B319-4B73-911F-E4ED9E5427BF}
+	EndGlobalSection
+EndGlobal
